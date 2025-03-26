@@ -1,0 +1,19 @@
+.home-page {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .home-page {
+    padding: 20px 40px;
+  }
+}
+.home-page .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.text-warn {
+  text-align: center;
+  font-size: 25px;
+}/*# sourceMappingURL=home.css.map */
